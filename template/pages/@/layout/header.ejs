@@ -63,7 +63,9 @@ const hasAllDepartments = header.menu_all_departments
           style="<%= marketingStripeStyle %>"
           href="<%= header.marketing_stripe.link %>"
         >
-          <%= header.marketing_stripe.text %>
+          <div class="html-clearfix">
+            <%- header.marketing_stripe.text.replace('.', '<br>').replace(/\*\*(.*?)\*\*/, `<b>$1</b>`) %>
+          </div>
         </a>
       <% } else { %>
         <div class="top-bar__countdown" style="<%= marketingStripeStyle %>">

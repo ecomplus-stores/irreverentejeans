@@ -156,3 +156,12 @@
     padding-left: 2px;
     padding-right: 2px;
   }
+
+  .list-variations li:hover a {
+    background-color: #803d4c;
+    color: #fff;
+  }
+
+  .top-bar__countdown .html-clearfix {
+    margin: 0 !important;
+  }

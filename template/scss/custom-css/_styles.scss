@@ -1,1 +1,158 @@
 // Add your custom CSS here.
+.list-variations {
+    h2 {
+        text-align: center;
+    }
+
+    ul {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 3rem;
+    }
+
+    a {
+        color: #803d4c;
+        font-size: 31px;
+        font-weight: 700;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        border: 2px solid #803d4c;
+        border-radius: 100%;
+        height: 110px;
+        width: 110px;
+        cursor: pointer;
+        margin: 0 auto;
+        outline: 0 !important;
+        flex-direction: row;
+    }
+}
+
+.products-carousel__title {
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.product-card__name {
+    font-size: 14px;
+    color: #717171 !important;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+@media (min-width: 768px) {
+    .product-card__prices {
+      display: block;
+      margin-bottom: .25rem;
+    }
+}
+
+.product-card {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+.depoimentos.banner-wrapper .depoimento-box {
+    margin: 0px auto;
+  }
+  .depoimento-box {
+    border: 1px solid #EBE6E3;
+    border-radius: 8px;
+    background: #FFFFFF;
+    -webkit-box-shadow: 0px 5px 9px -5px rgba(148,148,148,0.55);
+    -moz-box-shadow: 0px 5px 9px -5px rgba(148,148,148,0.55);
+    box-shadow: 0px 5px 9px -5px rgba(148,148,148,0.55);
+    text-align: center;
+    padding: 20px;
+  }
+  .title-client-avk {
+    text-align: center;
+  }
+  .title-client-avk img {
+    border-radius: 200px;
+    max-height: 70px;
+    margin: 0 auto;
+    margin-bottom: 0px;
+    border: 1px solid #C9AB72;
+  }
+  .title-client-avk p {
+    color: #434343 !important;
+    font-size: 18px;
+    font-weight: 700;
+    width: 100%;
+    margin-top: 10px !important;
+    margin-bottom: 5px;
+    display: block;
+  }
+  .title-client-avk small {
+    font-size: 16px;
+  }
+  
+  @media (min-width: 1200px) {
+    .depoimento-box {
+      text-align: left;
+    }
+    .title-client-avk {
+      text-align: left;
+      position: relative;
+    }
+    .title-client-avk img {
+      display: block;
+      text-align: center;
+      margin-bottom: 0px;
+    }
+    .title-client-avk p {
+      font-size: 18px;
+      font-weight: 700;
+    }
+  }
+  
+  .reviews {
+    .products-carousel__title::before {
+      height: 0 !important;
+    }
+    small {
+      color: var(--secondary);
+    }
+    .depoimento-box {
+      min-height: 300px;
+    }
+    height: unset;
+  }
+
+  .product-card {
+    &__name {
+      min-height: 54.4px;
+    }
+    &__prices {
+      flex-grow: 0;
+      > span:not(.prices__compare, .prices__value) {
+        display: none;
+      }
+    }
+    @media (min-width: 768px) {
+      &__prices {
+        display: block;
+        margin-bottom: .25rem;
+      }
+      .prices__compare,
+      .prices__value {
+        display: inline-block;
+      }
+      .prices__value {
+        margin-left: .25rem;
+      }
+    }
+  }
+
+  .banners-grid .row > div {
+    padding-left: 2px;
+    padding-right: 2px;
+  }

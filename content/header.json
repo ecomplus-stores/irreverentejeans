@@ -1,24 +1,22 @@
 {
   "marketing_stripe": {
-    "text": "Frete grátis para compras acima de R$ 119,90 PARA SUL, SUDESTE E MS.Ganhe 10% off na primeira compra cupom **primeiracompra**",
-    "link": "/"
+    "text": "Seja uma Diva Revendedora! Faça seu cadastro aqui",
+    "link": "https://docs.google.com/forms/d/e/1FAIpQLSdK1twJq3T6vWh1-fdW4fPzxn_7hiSOQeEz3xGSoz9VSSYOIg/viewform"
   },
   "contacts_stripe": {
     "pages": [
+      {
+        "title": "Seja uma Revendedora. Faça seu cadastro aqui",
+        "link": "/pages/revendedor"
+      }
     ],
-    "phone_wpp": false,
-    "socials": false
+    "phone_wpp": true,
+    "socials": true
   },
   "categories_list": {
     "featured": [],
-    "random": 6,
+    "random": 5,
     "full_width": false
   },
-  "centralized_logo": false,
-  "desktop_megamenu": false,
-  "search_input": true,
-  "alphabetical_order_submenu": false,
-  "full_width_submenu": false,
-  "menu_all_departments": false,
-  "name_all_departments": ""
+  "search_input": true
 }

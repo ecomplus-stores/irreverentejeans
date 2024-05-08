@@ -4,121 +4,48 @@
   "sections": [
     {
       "type": "banner-slider",
-      "autoplay": 9000,
-      "full_width": false,
+      "autoplay": 2000,
       "slides": [
         {
-          "img": "/img/uploads/slider.jpg",
-          "link": "/"
-        }
-      ]
-    },
-    {
-      "type": "filter-list",
-      "filters": [
-        {
-          "filter_grid": "size",
-          "filter_option": "PP"
-        },
-        {
-          "filter_grid": "size",
-          "filter_option": "P"
-        },
-        {
-          "filter_grid": "size",
-          "filter_option": "M"
-        },
-        {
-          "filter_grid": "size",
-          "filter_option": "G"
+          "start": "2023-11-10T19:16:56.105Z",
+          "end": "",
+          "mobile_img": "/img/uploads/6_easy-resize.com-3-.jpg",
+          "img": "/img/uploads/5_easy-resize.com-2-.jpg",
+          "link": "https://cristianeresende.com.br/loja"
         }
       ],
-      "title": "Compre Por Tamanho"
-    },
-    {
-      "type": "collection-shelf",
-      "shuffle": true,
-      "collection_id": null,
-      "sort": "offers",
-      "title": "Os Mais Vendidos",
-      "headless": false,
-      "limit": 12,
-      "page": 1
+      "full_width": true
     },
     {
       "type": "banners-grid",
-      "id": "1",
       "banners": [
         {
-          "img": "/img/uploads/banner-1.jpg",
-          "link": "",
-          "alt": "Zero Açucar"
+          "img": "/img/uploads/site8_easy-resize.com.jpg",
+          "alt": "Vestidos Fluídos",
+          "link": "https://cristianeresende.com.br/vestidos-fluidos"
         },
         {
-          "img": "/img/uploads/banner-2.jpg",
-          "alt": "Zero Conservantes"
+          "img": "/img/uploads/site10_easy-resize.com.jpg",
+          "alt": "Vestidos Justos",
+          "link": "https://cristianeresende.com.br/vestidos-justos",
+          "mobile_img": ""
+        },
+        {
+          "img": "/img/uploads/site4_easy-resize.com.jpg",
+          "alt": "Todos os Vestidos",
+          "link": "https://cristianeresende.com.br/todos-os-vestidos"
         }
       ]
     },
     {
-      "type": "collection-shelf",
-      "shuffle": true,
-      "collection_id": null,
-      "sort": "offers",
-      "title": "Novidades",
-      "headless": false,
-      "limit": 12,
-      "page": 1
-    },
-    {
-      "type": "banners-grid",
-      "id": "2",
-      "banners": [
-        {
-          "img": "/img/uploads/banner-3.jpg",
-          "link": "",
-          "alt": "Zero Açucar"
-        },
-        {
-          "img": "/img/uploads/banner-4.jpg",
-          "alt": "Zero Conservantes"
-        }
-      ]
+      "type": "info-bar",
+      "enabled": false
     },
     {
       "type": "collection-shelf",
       "shuffle": true,
-      "collection_id": null,
-      "sort": "offers",
-      "title": "Ofertas",
-      "headless": false,
-      "limit": 12,
-      "page": 1
-    },
-    {
-      "type": "banners-grid",
-      "id": "2",
-      "banners": [
-        {
-          "img": "/img/uploads/banner-5.jpg",
-          "link": "",
-          "alt": "Zero Açucar"
-        },
-        {
-          "img": "/img/uploads/banner-6.jpg",
-          "alt": "Zero Conservantes"
-        }
-      ]
-    },
-    {
-      "type": "collection-shelf",
-      "shuffle": true,
-      "collection_id": null,
-      "sort": "offers",
-      "title": "Veja Também",
-      "headless": false,
-      "limit": 12,
-      "page": 1
+      "title": "LANÇAMENTOS DO MÊS",
+      "sort": "news"
     }
   ]
 }

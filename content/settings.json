@@ -1,5 +1,5 @@
 {
-  "domain": "cristianeresende.com.br",
+  "domain": "irreverentejeans.netlify.app",
   "currency_symbol": "R$",
   "primary_color": "#313131",
   "theme": {
@@ -7,10 +7,10 @@
     "custom": "_"
   },
   "bg_color": "#ffffff",
-  "repository": "ecomplus-stores/cristiane-resende-loja",
+  "repository": "ecomplus-stores/irreverentejeans",
   "logo": "/img/uploads/logo-cr-white.png",
-  "name": "Cristiane Resende",
-  "short_name": "cristiane-resende",
+  "name": "irreverentejeans",
+  "short_name": "irreverentejeans",
   "lang": "pt_br",
   "currency": "BRL",
   "mini_logo": "",

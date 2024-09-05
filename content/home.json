@@ -17,35 +17,27 @@
       "full_width": true
     },
     {
-      "type": "banners-grid",
-      "banners": [
-        {
-          "img": "/img/uploads/site8_easy-resize.com.jpg",
-          "alt": "Vestidos Fluídos",
-          "link": "https://cristianeresende.com.br/vestidos-fluidos"
-        },
-        {
-          "img": "/img/uploads/site10_easy-resize.com.jpg",
-          "alt": "Vestidos Justos",
-          "link": "https://cristianeresende.com.br/vestidos-justos",
-          "mobile_img": ""
-        },
-        {
-          "img": "/img/uploads/site4_easy-resize.com.jpg",
-          "alt": "Todos os Vestidos",
-          "link": "https://cristianeresende.com.br/todos-os-vestidos"
-        }
-      ]
-    },
-    {
-      "type": "info-bar",
-      "enabled": false
-    },
-    {
       "type": "collection-shelf",
       "shuffle": true,
       "title": "LANÇAMENTOS DO MÊS",
       "sort": "news"
+    },
+    {
+      "type": "collection-shelf",
+      "shuffle": false,
+      "limit": 12,
+      "page": 1,
+      "collection_id": "65b045e42cd6b659590ff32f:categories:Vestidos Jeans:/vestidos-jeans",
+      "sort": "sales",
+      "title": "OS VESTIDOS MAIS VENDIDOS DA NOSSA COLEÇÃO"
+    },
+    {
+      "type": "collection-shelf",
+      "shuffle": false,
+      "limit": 12,
+      "page": 1,
+      "collection_id": "66857fcef4e6d85ab2c35463:categories:Jaquetas:/jaquetas",
+      "title": "AS JAQUETAS QUE FAZEM VOCÊS MAIS ESTILOSA"
     }
   ]
 }

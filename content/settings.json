@@ -1,7 +1,7 @@
 {
   "domain": "irreverentejeans.netlify.app",
   "currency_symbol": "R$",
-  "primary_color": "#313131",
+  "primary_color": "#e6e8eb",
   "theme": {
     "bootswatch": "_",
     "custom": "_"

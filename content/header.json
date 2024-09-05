@@ -14,7 +14,11 @@
     "socials": true
   },
   "categories_list": {
-    "featured": [],
+    "featured": [
+      "/vestidos-jeans?Vestidos Jeans",
+      "/calcas-jeans?Calças Jeans",
+      "/jaquetas?Jaquetas"
+    ],
     "random": 5,
     "full_width": false
   },

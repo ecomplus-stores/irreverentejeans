@@ -1,0 +1,37 @@
+{
+  "icons": [
+    {
+      "src": "/icon_512x512.cdf4b483ccab06511f6be85f2e6a4ad6.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_384x384.2606f8b54f614ffcd57c6fdcd672bb4e.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_192x192.ab7a2b77e7c929804320c7bcec2a1233.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_128x128.1f7c8385303ad956d1b513d4746f4453.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_96x96.50c2597f271402748491a308c0b6b8d6.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    }
+  ],
+  "name": "Irreverente Jeans - A moda do seu jeito.",
+  "short_name": "IrreverenteJeans",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": ".",
+  "description": "Jeans que desperta a sua versão elegante!\nElegância & Conforto, desde 2016.",
+  "background_color": "#ffffff",
+  "theme_color": "#011840"
+}
